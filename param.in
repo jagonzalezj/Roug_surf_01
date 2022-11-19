@@ -1,0 +1,20 @@
+#------------------------------------------------------------------------
+#    DEFAULT IMPUT PARAMETERS FOR RANDOM SURFACE SOFTWARE
+#    THE DEFAULT PARAMETERS CAN BE CHANGED DIRECTLY IN THE PARAM.IN FILE
+#    OR USING THE OPTION SET OF THE MAIN PROGRAM :  set b 1.2 C 10
+
+#    BY LINE :
+
+#    RANDOM SURFACE PARAMETER:     B         C1       N          M  ...
+#              SLAB DIMENSION:     LENGTH    WIDE     HEIGHT     -  ...
+#            CYLINDER DIMENSION:   RADII     HEIGHT   -          -  ...
+#            SPHERE DIMENSION:     RADII     -        -          -  ...
+#        OMSK SAMPLE CREATION:     LAT_STRUCT  LAT_PAR   MAT  DUP_X DUP_Y DUP_Z  ORIENT_X  ORIENT_y  ORIENT_Z        
+#------------------------------------------------------------------------    
+
+
+2.1    10.0   30.0   30.0  0.0  0.0  0.0  0.0  0.0                     
+15.0   15.0   15.0   0.0   0.0  0.0  0.0  0.0  0.0                   
+10.0   15.0   0.0    0.05  0.0  0.0  0.0  0.0  0.0                   
+10.0   0.0    0.0    0.0   0.0  0.0  0.0  0.0  0.0                   
+#'FCC'  3.165  'Cu'   40    40   40   100  010  001       

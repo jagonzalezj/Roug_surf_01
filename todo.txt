@@ -1,0 +1,24 @@
+#! /bin/bash
+
+# What we will do next time : 
+  play with the sphere mode and make the more efficient we can, and the closer to the ending version we can
+
+# We need: 
+  - rough sphere, slab and wires from 1e5 to 1e7 atoms top easily made
+  - to be able to output a mesh (even a simple one)
+  - to be able to have doc/benchmark
+
+# REQUIREMENTS: 
+  - python libs shapely, numpy, scipy, matplotlib, stl (pip, before installing numpy-stl), numpy-stl (pip), 
+
+
+  To install PyMesh: 
+  	- https://pymesh.readthedocs.io/en/latest/installation.html#download-the-source
+	- sudo ./setup.py build
+       	- sudo ./setup.py install
+	- python -c "import pymesh; pymesh.test()"	# to verify	
+
+
+## 1st; work on the sphere part
+  - verify if the creation of teh original sample with atomsk is implemented
+  -
